@@ -24,7 +24,19 @@ jobs:
         node:
           - "21"
           - "20"
+          - "19"
           - "18"
+          - "16"
+          - "15"
+          - "14"
+          - "13"
+          - "12"
+          - "11"
+          - "10"
+          - "9"
+          - "8"
+          - "7"
+          - "6"
     name: Node.js ${{ matrix.node }} on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     steps:
